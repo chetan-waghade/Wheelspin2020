@@ -1,0 +1,47 @@
+#wsHomeNavbar{
+	box-shadow: 2px 2px 5px 1px black;
+    background-color:rgba(11, 9, 35, 0.1) !important;				
+}
+
+
+
+
+/*making menu item color white*/
+
+
+.wsHomeNavItemContainer .wsHomeNavItem{
+	font-family: 'Girassol', 'sans-serif';
+	color: white !important;
+	font-size: 1.2rem;
+    margin: 0 1.4vw;
+    letter-spacing: 1px;
+    	
+}
+
+
+/* Replace this with event */
+
+.wsHomeNavItemContainer .wsHomeNavItem:hover{
+    background-color: white;
+    color: black !important;
+    transition: 0.2s linear;
+
+}
+
+/*Toggler icon custom*/
+/*start*/
+
+/*.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+}*/
+
+/* Show Brand When in xs */
+
+@media screen and (min-width: 600px) {
+    #wheelspin_brand{
+        display: none;
+    }
+}
+
+
+/*end*/

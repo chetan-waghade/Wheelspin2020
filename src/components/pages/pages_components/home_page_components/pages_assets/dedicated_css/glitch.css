@@ -1,0 +1,72 @@
+
+.wsHomeTitle h1::before,.wsHomeTitle h1::after{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  
+  }
+  
+  .wsHomeTitle h1::before{
+    color: #cc0f39;
+    animation: glitch-effect 2s infinite;
+  }
+  
+  .wsHomeTitle h1::after{
+    color: #0ffbf9;
+    animation: glitch-effect 1s infinite;
+  }
+  
+@media screen and (min-width: 601px) {
+  @keyframes glitch-effect {
+    0%{
+      left: -1.5px;
+      top: -1.5px;
+    }
+    25%{
+      left: 1.5px;
+      top: 0px;
+    }
+    50%{
+      left: -1px;
+      top: 1.5px;
+    }
+    75%{
+      left: 1px;
+      top: -1px;
+    }
+    100%{
+      left: 0px;
+      top: -1.5px;
+    }
+  }
+ 
+}
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  @keyframes glitch-effect {
+    0%{
+      left: 0.05vh;
+      top:  0.05vh;
+    }
+    25%{
+      left:  0.1vh;
+      top:  0vh;
+    }
+    50%{
+      left: -0.05vh;
+      top: 0.1vh;
+    }
+    75%{
+      left: 0.05vh;
+      top: -0.05vh;
+    }
+    100%{
+      left: 0vh;
+      top: 0.1vh;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.wsHomeDateCountdown h6{
+	color: white;
+	font-family: 'Inconsolata';
+	font-size: 1.4em;
+	padding: 2vh;
+	box-shadow:0.3em 0.3em 1em rgba(0,0,0,0.3);
+	border-width: 2px !important;
+}
+
+
+@media screen and (min-width: 601px) {
+  .wsHomeDateCountdown h6 {
+    font-size: 1.4em;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .wsHomeDateCountdown h6s {
+    font-size: 1vh;
+  }
+}

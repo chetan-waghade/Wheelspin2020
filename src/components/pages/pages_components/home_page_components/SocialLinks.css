@@ -1,0 +1,43 @@
+
+
+.wsHomeSocialLink i{
+	font-size: 2vw;
+	padding: 2vh;
+	color: white;
+    cursor: pointer;
+    margin: 0px 1vh;
+    clear:both;
+}
+
+/*Social Link icons*/
+
+
+
+
+@media screen and (min-width: 601px) {
+  .wsHomeSocialLink i{
+	font-size: 2vw;
+    }
+
+.wsHomeSocialLink i:hover{
+    color:#080F19;
+    border:1px dashed #080F19;
+    transition: 0.2s color ease-in-out;
+    cursor: pointer;
+    
+}
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .wsHomeSocialLink i{
+	font-size: 4vh;
+	
+}
+.wsHomeSocialLink i:hover{
+    border:1px dashed white;
+    transition: 0.2s color ease-in-out;
+    cursor: pointer;
+    
+}
+}

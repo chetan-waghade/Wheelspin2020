@@ -1,0 +1,35 @@
+*{
+    font-family: 'Inconsolata';
+   
+}
+
+.formFields {
+    border-radius: 0 !important;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.formFields:focus:valid{
+    background: transparent !important;
+    color:white;
+}
+
+input.form-control:focus {
+    border-color:white;
+    box-shadow: none;
+}
+
+.registerBtn{
+    border:1px solid white;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.registerBtn:hover{
+    background-color:rgba(255,255,255,0.3) !important;
+    color:white;
+    border: 1px solid white;
+    transition: 0.2s linear;
+   
+}

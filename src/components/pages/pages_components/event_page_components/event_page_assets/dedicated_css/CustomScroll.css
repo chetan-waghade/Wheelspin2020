@@ -1,0 +1,30 @@
+
+/* chrome and other devices */
+/* width */
+::-webkit-scrollbar {
+    width: 0.5vh;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: white; 
+  }
+  
+  /*for mozila*/
+  .scroller{
+    /* height:300px;
+    width: 300px; */
+    overflow-y: scroll;
+    scrollbar-color: white;
+    scrollbar-width: thin;
+  }

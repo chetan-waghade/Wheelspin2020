@@ -1,0 +1,140 @@
+
+@media screen and (min-width: 601px) {
+    #wsEventBigBox{
+      border:0.1vh solid white;
+  }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    #wsEventBigBox{
+        border:none;
+  
+  }
+  }
+
+/* Register button in event page hover effect for larger screen only */
+@media screen and (min-width: 601px) {
+    #wsEventRegisterBtn:hover {
+        box-shadow: inset 0px -2px 10px 1px rgba(0, 0, 0, 0.3);
+        background-color: rgba(255, 255, 255, 0.3) !important;
+        cursor: pointer;
+        transition: 0.2s linear;
+    }
+}
+
+
+/* top margin of left and right event list container */
+
+@media screen and (min-width: 601px) {
+
+    #wsEventsNameListLeft,
+    #wsEventsNameListRight {
+        margin-top: 10vh;
+    }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+
+    #wsEventsNameListLeft,
+    #wsEventsNameListRight {
+        margin-top: 1vh;
+        border: 0.5vw solid white;
+
+    }
+}
+
+/* Event name styling */
+
+#wsEventsNameListLeft .EventButton{
+    font-family: 'Inconsolata';
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding: 1.5vh 1.5vh; 
+    background-color: transparent;
+    border:none !important;
+    text-decoration: none;
+}
+
+.btn:focus{
+    outline:2px solid white !important;
+    box-shadow: none !important;
+}
+
+#wsEventsNameListRight .EventButton {
+    font-family: 'Inconsolata';
+    font-size: 1em;
+    color: white;
+    padding: 1.5vh 1.5vh; 
+    text-align: center;
+    background-color: transparent;
+    border:none !important;
+    border-radius: 0%;
+
+}
+
+
+/* font size of event name  */
+
+/*media queries for font size*/
+@media screen and (min-width: 601px) {
+
+    #wsEventsNameListLeft .EventButton,
+    #wsEventsNameListRight .EventButton {
+        font-size: 1.2em;
+    }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+
+    #wsEventsNameListLeft .EventButton,
+    #wsEventsNameListRight .EventButton {
+        font-size: 2vh;
+        padding: 1.5vh 0vh; 
+        
+    }
+}
+
+
+/* Event Details styling */
+/*media queries for border style*/
+@media screen and (min-width: 601px) {
+    #wsEventDetailScroll {
+        border-left: 0.1vw solid white;
+        border-right: 0.1vw solid white;
+    }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    #wsEventDetailScroll {
+        border-top: 0.1vh solid white;
+        border-bottom: 0.1vh solid white;
+    }
+}
+
+
+/*wsEventDetailScroll*/
+
+#wsEventDetailScroll {
+    color: white;
+    font-family: 'Inconsolata';
+    font-size: 1em;
+    overflow-y: scroll;
+}
+
+/*hovering and active effect to each event of left and right container of events*/
+@media screen and (min-width: 601px) {
+
+    #wsEventsNameListLeft .EventButton:hover,
+    #wsEventsNameListRight .EventButton:hover {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        transition: 0.2s linear;
+        cursor: pointer;
+        border-radius: 0%;
+    }
+}
